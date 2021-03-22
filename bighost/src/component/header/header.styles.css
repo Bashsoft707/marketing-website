@@ -1,0 +1,51 @@
+.header {
+    width: 100%;
+    margin-bottom: 25px;
+    background-color: #282c34;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    
+} 
+    
+.logo-container {
+    height: 100%;
+    width: 70px;
+    padding: 25px;
+}
+
+.logo {
+    width: 100px;
+}
+  
+.options {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.option {
+    padding: 10px 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.sign-in-and-sign-up {
+    width: 200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.sign {
+    padding: 0 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
